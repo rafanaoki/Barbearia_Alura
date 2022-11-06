@@ -1,0 +1,33 @@
+.beneficios {
+    align-items: center;
+    background-color: rgb(163, 133, 95);
+    padding: 100px 50px;
+    box-shadow: 2px 2px 20px black inset;
+}
+
+.beneficios--imagens {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagens--bloco {
+    width: 500px;
+    height: 600px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.imagem--ferramentas {
+    background-image: url(../img/barbearia_utensilios.webp);
+    background-size: cover;
+}
+
+.imagem--tesoura {
+    background-image: url(../img/equipamento_barbearia.webp);
+    background-size: cover;
+}
+
+.imagem--corte_barba {
+    background-image: url(../img/cortebarba.png);
+    background-size: cover;
+}

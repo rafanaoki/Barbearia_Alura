@@ -1,0 +1,32 @@
+.localizacao_mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco--localizacao_mapa {
+    padding: 100px 50px;
+}
+
+.imagem--informacao {
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.informacao {
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.informacao--texto {
+    word-wrap: break-word;
+    font-family: 'Roboto';
+    font-size: 19px;
+}
+
+.informacao--localizacao {
+    width: 400px;
+}

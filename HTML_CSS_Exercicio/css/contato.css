@@ -1,0 +1,72 @@
+.contato {
+    height: 500px;
+    padding: 100px 100px;
+    background-color: rgb(129, 94, 51);
+    box-shadow: 5px 5px 20px inset;
+}
+
+.contato--titulo {
+    text-align: left;
+    font-family: 'Mountserrat';
+    font-size: 40px;
+}
+
+.contato--texto {
+    padding: 20px 0px 2px 0px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: left;
+}
+
+.contato--bloco {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contato--imagem {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    text-align: right;
+}
+
+.bloco--formulario {
+    width: 700px;
+}
+
+.contato--titulo {
+    word-wrap: break-word;
+}
+.input--padrao {
+    font-family: 'Roboto';
+    font-size: 20px;
+    height: 40px;
+    padding-left: 5px;
+    margin: 15px 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.input--padrao--nomecompleto {
+    margin-top: 40px;
+    width: 350px;
+}
+
+.input--padrao--telefone {
+    width: 250px;
+}
+
+.input--padrao--email {
+    width: 620px;
+}
+
+.input--padrao--enviar {
+    font-family: 'Mountserrat';
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    width: 150px;
+}

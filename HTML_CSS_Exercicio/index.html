@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Alura</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/descricao.css">
+    <link rel="stylesheet" href="css/beneficios.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/produto.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/informacao.css">
+    <link rel="stylesheet" href="css/rodape.css">
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="container cabecalho">
+        <img class="cabecalho--imagem" src="img/logo.png" alt="Logo da Barbearia Alura">
+        <ul class="cabecalho--lista">
+            <li class="cabecalho--links"><a href="#banner">Home</a></li>
+            <li class="cabecalho--links"><a href="#produtos">Produtos</a></li>
+            <li class="cabecalho--links"><a href="#contato">Contato</a></li>
+        </ul>
+        <h1 class="cabecalho--titulo">Barbearia Alura</h1>
+    </header>
+
+    <section class="container banner" id="banner">
+        <video autoplay muted loop>
+            <source src="video/video_barbearia.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="container descricao">
+        <h1 class="descricao--titulo">Sobre a Barbearia Alura</h1>
+        <div class="descricao--texto">
+            <p>Localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor 
+                para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.
+
+            <p>Nossa missão é: <span class="descricao--texto--frase">"Proporcionar auto-estime e qualidade de vida aos clientes".</span></p>
+                
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O entendimento possui padrão de excelência
+                e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </div>
+    </section>
+
+    <section class="container beneficios">
+        <div class="beneficios--imagens">
+            <div class="imagens--bloco imagem--ferramentas"></div>
+            <div class="imagens--bloco imagem--tesoura"></div>
+            <div class="imagens--bloco imagem--corte_barba"></div>
+        </div>
+    </section>
+
+    <section class="container video">
+        <iframe class="detalhes detalhes_video" width="100%" height="900" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class=" container produto" id="produtos">
+        <h1 class="produto--titulo">BARBA, CABELO & BEM-ESTAR</h1>
+        <p class="produto--texto">Oferecemos desde os tradicionais Barba & Cabelo até os serviços que são pouco conhecidos do público masculino e que trazem o Bem-Estar ao cliente.</p>
+        <div class="produto--caixa">
+            <div class="produto--bloco produto--bloco--cabelo">
+                <h2 class="bloco--titulo cabelo--titulo">Cabelo</h2>
+                <img class="produto--imagem cabelo--imagem" src="img/cabelo.jpg" alt="Corte no Cabelo">
+                <div class="bloco--texto bloco--texto--cabelo">
+                <p class="cabelo--texto">Corte, Corte infantil, Lavagem, Tintura, Hidratação, 
+                    Relaxamento, Revés</p>
+                </div>
+                    <h3 class="produto--preco cabelo--preco">R$24,99</h3>
+            </div>
+            <div class="produto--bloco produto--bloco--barba">
+                <h2 class="bloco--titulo barba--titulo">Barba</h2>
+                <img class="produto--imagem barba--imagem" src="img/barba.jpg" alt="Corte na Barba">
+                <div class="bloco--texto bloco--texto--barba">
+                    <p class="barba--texto">Corte, Tintura, Depilação Barba, Depilação Facial</p>
+                </div>
+                <h3 class="produto--preco barba--preco">R$18,99</h3>
+            </div>
+            <div class="produto--bloco produto--bloco--cabelo_barba">
+                <h2 class="bloco--titulo cabelo_barba--titulo">Cabelo & Barba</h2>
+                <img class="produto--imagem cabelo_barba--imagem" src="img/cabelo+barba.jpg" alt="Corte no Cabelo e na Barba">
+                <div class="bloco--texto bloco--texto--cabelo_barba">
+                    <p class="cabelo_barba">Pacote Completo de Cabelo e Barba</p>
+                </div>
+                    <h3 class="produto--preco cabelo_barba--preco">R$38,99</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="container contato" id="contato">
+        <div class="contato--bloco">
+            <div class="contato--imagem"></div>
+            <form class="bloco--formulario">
+                <div class="formulario--item">
+                    <h1 class="contato--titulo">Entre em Contato Conosco!</h1>
+                    <p class="contato--texto">Precisa falar com a gente? Preencha o formulário de contato para conhecer melhor a nossa Barbearia!</p>
+                    <p class="contato--texto">Receba nossas melhores ofertas em seu e-mail.</p>
+                    <input type="text" id="nomesobrenome" class="input--padrao input--padrao--nomecompleto" required placeholder="Nome Completo">
+                    <input type="telefone" id="telefone" class="input--padrao input--padrao--telefone" required placeholder="Telefone">
+                </div>
+                <input type="email" id="email" class="input--padrao input--padrao--email" required placeholder="E-mail">
+                <input type="submit" value="Enviar" class="input--padrao input--padrao--enviar">
+            </form>
+        </div>
+    </section>
+    <section class="container localizacao_mapa">
+        <div class="bloco--localizacao_mapa bloco--informacao">
+            <div class="informacao informacao--localizacao">
+                <img class="imagem--informacao imagem--localizacao" src="img/imagem_localizador.png" alt="Imagem de uma marcação">
+                <p class="informacao--texto texto--localizacao">Rua Vergueiro, 3185 - Vila Mariana, São Paulo - SP, CEP: 04101-300</p>
+            </div>
+            <div class="informacao informacao--telefone">
+                <img class="imagem--informacao imagem--telefone" src="img/imagem_telefone.jpg" alt="Imagem de um telefone">
+                <p class="informacao--texto texto--telefone">+55 (11) 2589-7603</p>
+            </div>
+            <div class="informacao informcao--horario">
+                <img class="imagem--informacao imagem--horario" src="img/imagem_relogio.png" alt="Imagem de um relógio">
+                <p class="informacao--texto texto--horario">Seg a Sex 8:00h ás 9:00h</p>
+            </div>
+        </div>
+        <div class="bloco--localizacao_mapa bloco--mapa">
+            <h1 class="mapa--titulo"></h2>
+            <iframe class="detalhes detalhes_mapa" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58521.82047729497!2d-46.62924688790381!3d-23.54638971023353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salura%20s%C3%A3o%20paulo!5e0!3m2!1spt-BR!2sbr!4v1652936238618!5m2!1spt-BR!2sbr" width="600" height="450" 
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </iframe>
+    </section>
+
+    <footer class="container rodape">
+        <img class="rodape--imagem" src="img/logo-branco.png">
+        <p class="rodape--texto">&copy; Copyright - Barbearia Alura</p>
+    </footer>
+
+</body>
+</html>

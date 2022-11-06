@@ -1,0 +1,37 @@
+.cabecalho {
+    align-items: center;
+    background-color: rgb(129, 94, 51);
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 2px 10px black ;
+}
+.cabecalho--titulo {
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Abril Fatface';
+    font-size: 35px;
+}
+
+.cabecalho--imagem {
+    width: 50px;
+}
+
+.cabecalho--lista {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    font-size: 20px;
+
+}
+
+.cabecalho--links :hover {
+    color: white;
+}
+
+.cabecalho--links :visited {
+    color: black;
+}

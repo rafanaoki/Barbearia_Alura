@@ -1,0 +1,22 @@
+.descricao {
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 150px 200px 150px 200px;
+}
+
+.descricao--titulo {
+    font-family: 'Mountserrat';
+    font-weight: bold;
+    font-size: 50px;
+    color:rgb(129, 94, 51);
+}
+
+.descricao--texto {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.descricao--texto--frase {
+    font-weight: bold;
+}

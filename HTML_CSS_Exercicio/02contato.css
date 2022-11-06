@@ -1,0 +1,152 @@
+body {
+    background: url("papel-de-parede-autocolante-para-barbearia-retro-fundo-preto-papel-de-parede-beb.jpg");
+}
+.bloco {
+    width: 75%;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(15, 0, 15);
+    padding: 3em;
+    border: 9px white double;
+    color: white;
+}
+
+
+
+/*bloco_header*/
+.bloco_header {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bloco_header:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+.bloco_header img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.lista_navegacao {
+    display: inline-block;
+}
+.lista_navegacao li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.lista_navegacao a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.5s all;
+}
+.lista_navegacao a:hover {
+    text-decoration:underline;
+    color:rgb(172, 148, 103);
+    font-size: 25px;
+}
+
+
+
+/*bloco_main*/
+.bloco_main {
+    background: rgb(233, 233, 233);
+    color: black;
+    padding: 4em;
+}
+form {
+    position: relative;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 5px;
+    width: 80%;
+}
+.selector {
+    margin:5% 0;
+}
+.checkbox {
+    margin: 7% 0;
+}
+.enviar {
+    width:40%;
+    padding:20px 20px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.05);
+}
+.tabela {
+    padding-top: 4em;
+}
+table {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+thead {
+    font-weight: bold;
+    background: purple;
+    color: white;
+}
+th, td {
+    text-align: center;
+    border: 1px black solid;
+    padding: 8px 15px;
+}
+#feriados {
+    background: red;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/*bloco_footer*/
+.bloco_footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 9px white double;
+}
+
+
+@media screen and (max-width: 480px) {
+    .bloco {
+        width: 100%;
+        padding: 2em;
+    }
+    .bloco_header {
+        text-align: center;
+    }
+    .lista_navegacao li {
+        display: block;
+        margin-left: 0;
+        padding-top: 1em ;
+    }
+    .input-padrao {
+        width: 100%;
+    }
+    .enviar {
+        width: 100%;
+    }
+    .tabela {
+        text-align: center;
+    }
+}

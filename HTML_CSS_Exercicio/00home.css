@@ -1,0 +1,213 @@
+body {
+    background: url("planodefundo.png");
+    font-family: 'Hind Siliguri', sans-serif;
+}
+main {
+    width: 95%;
+    box-sizing: border-box;
+    background: linear-gradient(wheat, rgb(49, 34, 7));
+    margin: auto;
+}
+.bloco {
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    padding: 2em;
+    opacity: 0.95;
+    transition: 0.3s all;
+
+}
+.bloco:hover {
+    opacity: 1;
+    border: 5px solid rgb(49, 34, 7);
+}
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    margin: 0 0 2em;
+    clear: left;
+}
+
+
+
+/* CABEÇALHO */
+.bloco_cabecalho {
+    padding: 3em;
+    text-align: justify;
+}
+.bloco_cabecalho::after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+.logo_preto {
+    display: inline-block;
+    vertical-align:middle;
+    width: 20%;
+}
+.nome_barbearia {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+
+
+/*IMAGEM */
+.banner {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    transition: 0.5s all;
+
+}
+.banner:hover { 
+    border: 5px solid rgb(49, 34, 7);
+}
+
+
+
+/*CONTEÚDO PRINCIPAL*/
+.utensilios {
+    width: 15%;
+    float:left;
+    margin: 0 3% 3% 0;
+    transition: 0.5s all;
+}
+.utensilios:hover {
+    opacity: 0.7;
+}
+p {
+    text-align: justify;
+    margin: 0 0 1em;
+}
+span {
+    font-weight: bold;
+}
+
+
+
+/*  BLOCO_BENEFÍCIOS*/
+.bloco_beneficios {
+    text-align: justify;
+}
+.lista_vantagens {
+    display: inline-block;
+    list-style-type: circle;
+    vertical-align: middle;
+}
+.lista_vantagens li {
+    font-style: italic;
+    line-height: 2;
+}
+.imagem_beneficios {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+.bloco_beneficios::after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+/* BLOCO_VIDEO */
+.bloco_video {
+    text-align: center
+}
+.detalhes_video {
+    width: 60%;
+}
+
+
+
+/*BLOCO_MAPA*/
+.bloco_mapa iframe {
+    width:100%
+}
+.bloco_mapa p {
+    text-align: center;
+}
+
+
+
+/* BLOCO_INFORMACAO */
+.links {
+    text-align: center;
+}
+.links li {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 21px;
+}
+.links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s all;
+    color:white;
+    text-shadow: 3px 3px rgb(27, 19, 4);
+}
+.links a:hover {
+    text-decoration: underline;
+    color:rgb(27, 19, 4);
+    font-size: 22px;
+    text-shadow: 0 0 ;
+}
+.links :nth-child(2n) {
+    padding: 0 2em;
+}
+
+
+
+/*BLOCO_RODAPE*/
+.bloco_rodape {
+    text-align: center;
+}
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .bloco, .banner, .bloco-degrade, section {
+        width: 100%;
+        text-align: center;
+        padding: 2em 2em;
+    }
+    .bloco:hover, .banner:hover, .bloco-degrade:hover ,.section:hover {
+        width: 100%;
+        border: 0px;
+    }
+    .banner {
+        padding: 0;
+        width: 100%;
+    }
+    .logo {
+        width: 50%;
+        padding: 0;
+    }
+    .detalhes, .titulo, .imagem_beneficios {
+        display: block;
+        width: 100%;
+    }
+    .bloco-degrade,.section_beneficios, .section_video,.section_mapa, .section_informacao {
+        padding: 0;
+    }
+    .bloco_principal p {
+        margin: 0;
+    }
+
+}
